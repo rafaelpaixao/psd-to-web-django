@@ -1,0 +1,12 @@
+<div class="col-sm">
+    <div class="site-icon-outer">
+        <div class="site-icon-inner d-flex align-items-center justify-content-center">
+            {% with template_name=card.icon|stringformat:"s"|add:".html" %}
+                {% include "components/icon_"|add:template_name %}
+            {% endwith %}
+        </div>
+    </div>
+    <h1>{{card.title}}</h1>
+    <p>{{card.subtitle}}</p>
+    <button class="btn btn-secondary btn-sm">Read More</button>
+</div>

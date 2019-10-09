@@ -1,0 +1,80 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$dXQ3mAi4ThPx$Zz7B/+eVMmyJIBdwSDCgLrZKtxsCmJ3ZoUI/sxdH+Mo=",
+            "last_login": "2019-10-02T08:55:02.133Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "admin@email.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2019-10-02T08:54:46.489Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "exemplo.card",
+        "pk": 1,
+        "fields": {
+            "title": "Card 1",
+            "subtitle": "This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean     sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id     elit.",
+            "icon": "clock"
+        }
+    },
+    {
+        "model": "exemplo.card",
+        "pk": 2,
+        "fields": {
+            "title": "Card 2",
+            "subtitle": "This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean     sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id     elit.",
+            "icon": "gear"
+        }
+    },
+    {
+        "model": "exemplo.card",
+        "pk": 3,
+        "fields": {
+            "title": "Card 3",
+            "subtitle": "This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean     sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id     elit.",
+            "icon": "laptop"
+        }
+    },
+    {
+        "model": "exemplo.card",
+        "pk": 4,
+        "fields": {
+            "title": "Card 4",
+            "subtitle": "This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean     sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id     elit.",
+            "icon": "box"
+        }
+    },
+    {
+        "model": "exemplo.slide",
+        "pk": 1,
+        "fields": {
+            "title": "Esse \u00e9 o Slide 1",
+            "subtitle": "Class aptent taciti sociosqu ad litora torquent per conubia nostra."
+        }
+    },
+    {
+        "model": "exemplo.slide",
+        "pk": 2,
+        "fields": {
+            "title": "Esse \u00e9 o slide 2",
+            "subtitle": "Class aptent taciti sociosqu ad litora torquent per conubia nostra."
+        }
+    },
+    {
+        "model": "exemplo.slide",
+        "pk": 3,
+        "fields": {
+            "title": "Esse \u00e9 o slide 3",
+            "subtitle": "Class aptent taciti sociosqu ad litora torquent per conubia nostra."
+        }
+    }
+]
